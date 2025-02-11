@@ -40,6 +40,24 @@ li :hover{
     color:blue
     
 }
+
+section.redesocial img
+{
+width: 40px;
+border-radius: 60%;
+box-sizing: border-box;
+
+}
+
+section.redesocial a  :hover{
+    border: 2px solid blue;
+}
+
+section.redesocial a{
+    margin-top: 10px;  
+}
+
+
 h1{
 margin-top: 100px;
 margin-bottom: 10px;
