@@ -10,6 +10,7 @@
 body{
     max-width: 1400px;
     margin: auto;
+    background-color: black;
     
 }
 
@@ -17,27 +18,39 @@ div.navegacao{
    display: flex;
    justify-content: space-around;
    align-items: center;
+   position: sticky;
+   top: 0;
    
 }
-nav,div.logo{
-    font-size: 2,5em;
-   
+.logo{
+    color: white;
+    font-size: 31px;
+    font-weight: 600;
 }
-li{
+.logo span{
+    color: blue;
+}
+li,a{
     display: inline-block;
     margin: 0,10,0,0;
     padding-left: 15px;
+   color: white;
+}
+li :hover{
+    color:blue
     
 }
 h1{
 margin-top: 100px;
 margin-bottom: 10px;
 margin-left: 200px;
+color: white;
 
 }
 body.header,section,p{
     text-indent: 20px;
     margin-left: 10px;
+    color: white;
 }
 
 
