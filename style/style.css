@@ -75,3 +75,6 @@ body.header,section,p{
     justify-content: space-around;
     align-items: center;
 }
+header.h1,span{
+    color: blue;
+}
