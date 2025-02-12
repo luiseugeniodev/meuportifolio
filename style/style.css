@@ -43,7 +43,8 @@ li :hover{
 
 section.redesocial img
 {
-width: 40px;
+width: 40px; ;
+height: 40px;
 border-radius: 60%;
 box-sizing: border-box;
 
@@ -59,7 +60,7 @@ section.redesocial a{
 
 
 h1{
-margin-top: 100px;
+margin-top: 200px;
 margin-bottom: 10px;
 margin-left: 200px;
 color: white;
@@ -69,6 +70,14 @@ body.header,section,p{
     text-indent: 20px;
     margin-left: 10px;
     color: white;
+   
+    
+}
+
+header,section header-imagem{
+     
+    
+    
 }
 
 
