@@ -8,30 +8,34 @@
 }
 
 body{
-    max-width: 1400px;
+    max-width: 100%;
     margin: auto;
     background-color: black;
     
 }
 
-div.navegacao{
+nav{
    display: flex;
-   justify-content: space-around;
-   align-items: center;
-   position: sticky;
-   top: 0;
-   
+    position:fixed;
+    top: 0px;
+    align-items: center; 
+    background-color: black; 
+    width: 100%; 
+    justify-content: space-around;
+    
 }
+
 .logo{
     color: white;
     font-size: 31px;
     font-weight: 600;
+    margin-left: 135px;  
 }
 .logo span{
     color: blue;
 }
 li,a{
-    display: inline-block;
+   display: inline-block;
     margin: 0,10,0,0;
     padding-left: 15px;
    color: white;
@@ -41,12 +45,12 @@ li :hover{
     
 }
 
-section.redesocial img
-{
+section.redesocial img{
 width: 40px; ;
 height: 40px;
 border-radius: 60%;
 box-sizing: border-box;
+border: 150px;
 
 }
 
@@ -77,4 +81,19 @@ body.header,section,p{
 }
 header.h1,span{
     color: blue;
+}
+
+
+main{
+  margin-top: px;
+  margin-bottom: 100px;
+}
+main.titulo-sobre,h2{
+    color: white;
+    margin-bottom: 90px;
+    font-size: 40px;
+}
+
+main.titulo-projeto,h2{
+    margin-top: 300px;
 }
