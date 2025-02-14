@@ -83,11 +83,6 @@ header.h1,span{
     color: blue;
 }
 
-
-main{
-  margin-top: px;
-  margin-bottom: 100px;
-}
 main.titulo-sobre,h2{
     color: white;
     margin-bottom: 90px;
@@ -97,3 +92,6 @@ main.titulo-sobre,h2{
 main.titulo-projeto,h2{
     margin-top: 300px;
 }
+
+
+
